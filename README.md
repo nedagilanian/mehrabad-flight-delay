@@ -113,7 +113,20 @@ Comparison between GRU and Random Forest classifiers on the generated dataset.
 ![Confusion Matrix](confusion_matrix.png)
 
 
--
+-## 📊 Model Comparison
+
+Two machine learning approaches were evaluated on the generated flight delay dataset.
+
+| Model | Accuracy |
+|---------|---------|
+| GRU (Deep Learning) | 66% |
+| Random Forest | 81% |
+
+### Key Finding
+
+Although GRU is a powerful deep learning architecture, Random Forest achieved significantly better performance on this structured tabular dataset.
+
+This demonstrates the importance of selecting models based on data characteristics rather than model complexity.
 
 ## 👩‍💻 Author
 
