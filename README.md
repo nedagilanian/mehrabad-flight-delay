@@ -122,6 +122,24 @@ Two machine learning approaches were evaluated on the generated flight delay dat
 | GRU (Deep Learning) | 66% |
 | Random Forest | 81% |
 
+## 🔍 Feature Importance Analysis
+
+The Random Forest model provides insight into which factors have the greatest impact on flight delay prediction.
+
+### Feature Importance Ranking
+
+![Feature Importance](feature_importance.png)
+
+### Key Insights
+
+- ScheduledHour was the most important feature (35.1%)
+- Airline had nearly identical importance (35.0%)
+- Weekday contributed moderately (18.1%)
+- Destination showed the lowest impact (11.8%)
+
+These findings suggest that departure time and airline-specific operational characteristics are the primary drivers of flight delays in the generated dataset.
+
+
 ### Key Finding
 
 Although GRU is a powerful deep learning architecture, Random Forest achieved significantly better performance on this structured tabular dataset.
