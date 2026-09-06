@@ -108,15 +108,12 @@ This project is intended as an educational demonstration of machine learning wor
 
 Comparison between GRU and Random Forest classifiers on the generated dataset.
 
-## 🚀 Future Improvements
+## Confusion Matrix
 
-* Compare GRU with Random Forest
-* Compare GRU with Logistic Regression
-* Hyperparameter Tuning
-* Real Flight Data Integration
-* Interactive Dashboard using Streamlit
+![Confusion Matrix](confusion_matrix.png)
 
----
+
+-
 
 ## 👩‍💻 Author
 
