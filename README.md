@@ -102,6 +102,11 @@ Current performance:
 This project is intended as an educational demonstration of machine learning workflows including data generation, preprocessing, visualization, model training, and evaluation.
 
 ---
+## Model Comparison
+
+![Model Comparison](model_comparison.png)
+
+Comparison between GRU and Random Forest classifiers on the generated dataset.
 
 ## 🚀 Future Improvements
 
